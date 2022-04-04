@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TailwindCSS</title>
+</head>
+<body class="dark:bg-slate-800 dark:text-slate-100">
+    <p class="text-5xl font-bold text-center bg-gradient-to-r from-green-600 to-orange-300 bg-clip-text text-transparent">Hello TailwindCSS</p>
+    <a href="#" class="bg-blue-500 mt-2 p-3 text-white rounded inline-block shadow hover:bg-blue-800">Click Me!</a>
+    <p class="bg-gradient-to-r from-red-600 to-amber-400 mt-3 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi soluta ex minima ipsum laboriosam officia, autem vitae cupiditate adipisci quae eaque, iure cumque libero reiciendis neque odit! Aliquam, enim reiciendis!</p>
+    <div class="w-1/2 bg-black h-8 mt-[20px]"></div>
+    <div class="w-1/3 bg-gray-800 h-8"></div>
+
+    <section class="mt-10 mx-auto w-2/3">
+        <h2 class="mb-4 font-bold text-2xl font-sans text-gold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, omnis!</h2>
+        <p class="mb-4 font-serif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptate beatae! Ex minus fugiat vero ullam explicabo! Unde maiores, mollitia aperiam sequi, praesentium sint ea a, deserunt voluptatum assumenda dignissimos.</p>
+        <p class="mb-4 font-mono">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptate beatae! Ex minus fugiat vero ullam explicabo! Unde maiores, mollitia aperiam sequi, praesentium sint ea a, deserunt voluptatum assumenda dignissimos.</p>
+        <p class="font-Beau text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptate beatae! Ex minus fugiat vero ullam explicabo! Unde maiores, mollitia aperiam sequi, praesentium sint ea a, deserunt voluptatum assumenda dignissimos.</p>
+    </section>
+
+    <div class="max-w-xl h-96 bg-green-300 mx-auto mt-[42px] mb-[200px] overflow-y-scroll bg-fixed bg-contain" style="background-image: url('https://source.unsplash.com/1000x600?setup');">
+    <p class="p-4 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, earum sit iure vero aliquid optio? Nam et suscipit consequatur iste saepe vitae ducimus eveniet nihil accusantium quod officia, distinctio est tempora. Adipisci hic officiis blanditiis, reprehenderit unde reiciendis, minima doloremque, sequi laborum illum illo fuga? Praesentium sapiente id quis. Blanditiis quas ducimus deserunt ad! Quas ea temporibus, voluptates fugiat alias eum nesciunt modi molestiae in molestias inventore velit quam libero assumenda ullam possimus excepturi repellat consequatur exercitationem. Consectetur inventore distinctio, dignissimos perspiciatis explicabo rem provident excepturi voluptate itaque possimus temporibus cumque quibusdam similique, libero sint ratione optio placeat facere tenetur atque nihil! Ipsa quibusdam dolorem ut eum ducimus natus necessitatibus modi laborum voluptatum veritatis laudantium amet doloremque magnam nemo, eos aliquid, id similique quis provident velit dicta enim possimus odit repellat? Ducimus amet dolorem tempore rem exercitationem itaque dolore, dolor voluptates unde doloribus vitae quidem sequi sunt totam neque sint consequuntur corrupti modi, dolores impedit dicta. Dolorem modi architecto autem id, corrupti accusantium et ab culpa? Amet tempore distinctio rerum soluta quidem rem consectetur nesciunt provident, fugiat ipsa veniam voluptatibus sit, earum omnis animi. Expedita at debitis repellat quo veritatis excepturi harum consectetur aut. Vitae earum saepe iste ab tempora.</p>
+    </div>
+
+    <div class="max-w-xl h-96 bg-orange-300 mx-auto mb-[200px] bg-cover rounded-2xl bg-hero-pattern shadow-xl shadow-slate-500 opacity-80 cursor-pointer hover:opacity-100"></div>
+
+    <button class=" py-2 px-5 font-semibold text-white bg-sky-500 rounded-full block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring-sky-300">Simpan</button>
+
+    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-sans hover:bg-rose-100 group">
+        <h5 class="font-bold text-slate-600 text-lg mb-3 group-hover:text-white selection:bg-sky-500">My Card</h5>
+        <p class="text-slate-600 group-hover:text-white first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium ipsa nam blanditiis veritatis maiores voluptatum esse quos. Provident nobis officiis ex autem maiores quis suscipit sapiente, nostrum amet beatae!</p>
+    </div>
+
+    <div class="max-w-lg p-5 border border-slate-200 rounded mx-auto shadow-md">
+        <form action="">
+            <label for="email" class="block">
+                <span class="font-bold text-slate-500 after:content-['*'] after:text-pink-700 after:ml-0.5">Email</span>
+                <input class="shadow px-3 py-2 w-full rounded text-sm placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-sky-400 invalid:text-pink-700 invalid:focus:ring-pink-700 peer" type="email" placeholder="masukan email.." id="email">
+
+                <p class="text-sm text-pink-700 m-1 invisible peer-invalid:visible">email tidak valid</p>
+            </label>
+        </form>
+    </div>
+
+
+    <div class="mb-[200px]"></div>
+</body>
+</html>
